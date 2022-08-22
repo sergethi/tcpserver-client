@@ -3,7 +3,7 @@
 import socket
 
 serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host = socket.gethostbyname()
+host = socket.gethostname()
 port = 444
 
 serverSocket.bind((host, port))
